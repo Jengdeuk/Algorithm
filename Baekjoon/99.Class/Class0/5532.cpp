@@ -14,6 +14,4 @@ int main()
 	int Ma = ceil(float(B) / D);
 
 	cout << L - max(Ko, Ma);
-
-	cout << '\n' << Ko << ' ' << Ma;
 }
