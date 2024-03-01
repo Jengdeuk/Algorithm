@@ -1,8 +1,8 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int Shop[100][2];
+int DP[101][5002];
 
 int main()
 {
@@ -12,60 +12,49 @@ int main()
 	int N, K;
 	cin >> N >> K;
 
-	int ShopSize = 0;
+	int MaxS = 0;
 	for (int i = 0; i < N; ++i)
 	{
-		int Cost, Get;
-		cin >> Cost >> Get;
-		if (Get >= Cost)
+		cin >> Shop[i][0] >> Shop[i][1];
+		MaxS = max(MaxS, Shop[i][1]);
+	}
+
+	MaxS = MaxS * K + 1;
+	for (int i = 0; i <= K; ++i)
+	{
+		for (int j = 0; j <= MaxS; ++j)
 		{
-			Shop[ShopSize][0] = Cost;
-			Shop[ShopSize][1] = Get;
-			++ShopSize;
+			DP[i][j] = -1;
 		}
 	}
 
-	int Carrot = 0;
-	int S = 1;
-	for (int i = 1; i < K; ++i)
+	DP[0][1] = 0;
+	for (int i = 0; i < K; ++i)
 	{
-		bool bBought = false;
-
-		int MaxIndex = -1;
-		int MaxCarrot = 0;
-		for (int j = 0; j < ShopSize; ++j)
+		for (int j = 0; j <= MaxS; ++j)
 		{
-			if (Carrot < Shop[j][0])
+			if (DP[i][j] == -1)
 			{
 				continue;
 			}
 
-			int Cost = Shop[j][0];
-			int NewS = S + Shop[j][1];
+			DP[i + 1][j] = max(DP[i + 1][j], DP[i][j] + j);
 
-			int OriginCarrot = S * (K - i + 1);
-			int NewCarrot = NewS * (K - i) - Cost;
-			if (NewCarrot >= OriginCarrot
-				&& NewCarrot > MaxCarrot)
+			for (int k = 0; k < N; ++k)
 			{
-				MaxIndex = j;
-				MaxCarrot = NewCarrot;
+				int Cost = Shop[k][0];
+				int Add = Shop[k][1];
+
+				DP[i + 1][j + Add] = max(DP[i + 1][j + Add], DP[i][j] - Cost);
 			}
-		}
-
-		if (MaxIndex != -1)
-		{
-			Carrot -= Shop[MaxIndex][0];
-			S += Shop[MaxIndex][1];
-			bBought = true;
-		}
-
-		if (!bBought)
-		{
-			Carrot += S;
 		}
 	}
 
-	Carrot += S;
-	cout << Carrot;
+	int Max = 0;
+	for (int j = 1; j <= MaxS; ++j)
+	{
+		Max = max(Max, DP[K][j]);
+	}
+
+	cout << Max;
 }

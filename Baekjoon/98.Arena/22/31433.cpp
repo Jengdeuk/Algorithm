@@ -3,30 +3,27 @@
 using namespace std;
 
 int N;
+int Min = 5000000;
 
-int Check(string Current)
+const char Character[3] = { 'K', 'S', 'A' };
+
+void Check(string Sub, int Count)
 {
-	int Cnt = 0;
-
-	int Size = min(N, int(Current.size()));
-
-	for (int i = 0; i < Size; ++i)
+	int Index = 0;
+	for (int i = 0; i < Sub.size(); ++i)
 	{
-		if (i % 3 == 0 && Current[i] == 'K')
+		if (Sub[i] != Character[Index % 3])
 		{
-			++Cnt;
+			++Count;
 		}
-		else if (i % 3 == 1 && Current[i] == 'S')
+		else
 		{
-			++Cnt;
-		}
-		else if (i % 3 == 2 && Current[i] == 'A')
-		{
-			++Cnt;
+			++Index;
 		}
 	}
-
-	return Cnt;
+	
+	Count += abs(N - Index);
+	Min = min(Min, Count);
 }
 
 int main()
@@ -38,19 +35,9 @@ int main()
 	cin >> X;
 	N = X.size();
 
-	for (int i = 0; i < X.size(); ++i)
-	{
-		if (i % 3 == 0 && X[i] != 'K')
-		{
-			return false;
-		}
-		else if (i % 3 == 1 && X[i] != 'S')
-		{
-			return false;
-		}
-		else if (i % 3 == 2 && X[i] != 'A')
-		{
-			return false;
-		}
-	}
+	Check("K" + X, 1);
+	Check("KS" + X, 2);
+	Check(X, 0);
+
+	cout << Min;
 }
