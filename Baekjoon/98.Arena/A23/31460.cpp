@@ -9,7 +9,7 @@ void Test()
 
 	if (N == 1)
 	{
-		cout << -1 << '\n';
+		cout << 0 << '\n';
 		return;
 	}
 

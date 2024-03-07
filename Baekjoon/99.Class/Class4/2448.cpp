@@ -1,27 +1,30 @@
 #include <iostream>
 using namespace std;
 
-void PrintTree(int N)
+char Board[3072][6143];
+
+void DrawTriangle(int N, int Row, int Col)
 {
-	for (int i = 0; i < N - 1; ++i)
+	if (N == 3)
 	{
-		cout << ' ';
-	}
-	cout << "*\n";
+		for (int i = 0; i < N; ++i)
+		{
+			Board[Row + i][Col - i] = '*';
+			Board[Row + i][Col + i] = '*';
+		}
 
-	for (int i = 0; i < N - 2; ++i)
-	{
-		cout << ' ';
-	}
-	cout << "* *\n";
+		for (int i = 0; i < 2; ++i)
+		{
+			Board[Row + N - 1][Col - i] = '*';
+			Board[Row + N - 1][Col + i] = '*';
+		}
 
-	for (int i = 0; i < N - 2; ++i)
-	{
-		cout << ' ';
+		return;
 	}
-	cout << "*****\n";
 
-	PrintTree(N - 3);
+	DrawTriangle(N / 2, Row, Col);
+	DrawTriangle(N / 2, Row + N / 2, Col - N / 2);
+	DrawTriangle(N / 2, Row + N / 2, Col + N / 2);
 }
 
 int main()
@@ -31,5 +34,23 @@ int main()
 
 	int N;
 	cin >> N;
-	PrintTree(N);
+
+	for (int i = 0; i < N; ++i)
+	{
+		for (int j = 0; j < 2 * N - 1; ++j)
+		{
+			Board[i][j] = ' ';
+		}
+	}
+
+	DrawTriangle(N, 0, N - 1);
+
+	for (int i = 0; i < N; ++i)
+	{
+		for (int j = 0; j < 2 * N - 1; ++j)
+		{
+			cout << Board[i][j];
+		}
+		cout << '\n';
+	}
 }

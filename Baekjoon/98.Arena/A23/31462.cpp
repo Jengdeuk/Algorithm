@@ -10,14 +10,6 @@ int main()
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr); cout.tie(nullptr);
 
-	for (int i = 0; i < 5005; ++i)
-	{
-		for (int j = 0; j < 5005; ++j)
-		{
-			Tree[i][j] = 'X';
-		}
-	}
-
 	int N;
 	cin >> N;
 	for (int i = 0; i < N; ++i)
@@ -43,7 +35,8 @@ int main()
 			if (Tree[i][j] == 'R')
 			{
 				if (Tree[i + 1][j] != 'R'
-					|| Tree[i + 1][j + 1] != 'R')
+					|| Tree[i + 1][j + 1] != 'R'
+					|| Visited[i + 1][j] || Visited[i + 1][j + 1])
 				{
 					cout << 0;
 					return 0;
@@ -55,7 +48,8 @@ int main()
 			else
 			{
 				if (Tree[i][j + 1] != 'B'
-					|| Tree[i + 1][j + 1] != 'B')
+					|| Tree[i + 1][j + 1] != 'B'
+					|| Visited[i][j + 1] || Visited[i + 1][j + 1])
 				{
 					cout << 0;
 					return 0;
@@ -67,9 +61,9 @@ int main()
 		}
 	}
 
-	for (int i = 0; i < N; ++i)
+	for (int j = 0; j <= N - 1; ++j)
 	{
-		if (!Visited[N - 1][i])
+		if (!Visited[N - 1][j])
 		{
 			cout << 0;
 			return 0;
