@@ -1,7 +1,8 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-int Height[5000];
+vector<int> H;
 
 int main()
 {
@@ -10,39 +11,39 @@ int main()
 
 	int N;
 	cin >> N;
+	H.reserve(N);
 
-	if (N % 2 == 0)
+	H.emplace_back(1);
+	H.emplace_back(2);
+	for (int i = 2; i < N; ++i)
 	{
-		Height[N / 2 - 1] = 1;
-	}
-	else
-	{
-		Height[N / 2] = 1;
-	}
-
-	int H = 5000;
-	int S = 0;
-	int E = N - 1;
-	while (Height[S] == 0 || Height[E] == 0)
-	{
-		if (Height[E] == 0)
+		for (int j = 0; j < i; ++j)
 		{
-			Height[E] = H;
-			--H;
+			++H[j];
 		}
 
-		if (Height[S] == 0)
+		int Index;
+		switch (i % 4)
 		{
-			Height[S] = H;
-			--H;
+		case 0:
+		case 2:
+			Index = i / 2;
+			break;
+
+		case 1:
+			Index = (i - 1) / 2;
+			break;
+
+		case 3:
+			Index = (i - 1) / 2 + 1;
+			break;
 		}
 
-		++S;
-		--E;
+		H.insert(H.begin() + Index, 1);
 	}
 
-	for (int i = 0; i < N; ++i)
+	for (const int& Num : H)
 	{
-		cout << Height[i] << ' ';
+		cout << Num << ' ';
 	}
 }
