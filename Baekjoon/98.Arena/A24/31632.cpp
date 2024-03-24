@@ -60,8 +60,7 @@ void Test()
 	if ((WDL[1] && WDL[0])
 		|| (WDL[1] && WDL[2])
 		|| (WDL[0] && !WDL[2])
-		|| (!WDL[0] && WDL[2])
-		|| Cnt == 0)
+		|| (!WDL[0] && WDL[2]))
 	{
 		cout << "NO\n";
 		return;
@@ -71,6 +70,17 @@ void Test()
 	if (WDL[1])
 	{
 		cout << "YES\n";
+
+		if (Cnt == 0)
+		{
+			for (int i = 0; i < N; ++i)
+			{
+				cout << 'G';
+			}
+
+			cout << '\n';
+			return;
+		}
 
 		char DC = '-';
 		for (int i = 0; i < 3; ++i)
@@ -99,6 +109,26 @@ void Test()
 	}
 
 	// Win & Lose
+	if (Cnt == 0)
+	{
+		cout << "YES\n";
+
+		for (int i = 0; i < N; ++i)
+		{
+			if (Result[i] == 'W')
+			{
+				cout << 'G';
+			}
+			else
+			{
+				cout << 'O';
+			}
+		}
+
+		cout << '\n';
+		return;
+	}
+
 	char WC = '-', LC = '-';
 	for (int i = 0; i < N; ++i)
 	{
