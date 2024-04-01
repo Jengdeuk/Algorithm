@@ -29,7 +29,7 @@ int main()
 
 	if (N == 1)
 	{
-		cout << DP[N];
+		cout << 0;
 		return 0;
 	}
 
