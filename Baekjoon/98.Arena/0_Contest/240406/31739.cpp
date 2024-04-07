@@ -1,128 +1,72 @@
 #include <iostream>
-#include <list>
 #include <cstring>
-#include <queue>
 using namespace std;
 
 typedef pair<int, int> p;
 
 int N, M, K, T, P;
-list<int> Mosquito[50][50];
-p MP[10];
+pair<int, p> MP[10];
 
-const int DX[4] = { -1, 0, 1, 0 };
-const int DY[4] = { 0, -1, 0, 1 };
-bool Visited[50][50];
-
-int Max, MKill;
-bool bFound;
-
-void DFS(int Time, int Kill, int R, int C)
+int Max;
+int Way[10];
+bool Check[10];
+void Backtracking(int Idx)
 {
-	Visited[R][C] = true;
-	Kill += Mosquito[R][C].size();
-	MKill = max(MKill, Kill);
-	if (Time == T)
+	if (Idx == K)
 	{
+		int Time = 0, Kill = 1;
+		int R = MP[Way[0]].second.first;
+		int C = MP[Way[0]].second.second;
+		for (int i = 1; i < K; ++i)
+		{
+			int NR = MP[Way[i]].second.first;
+			int NC = MP[Way[i]].second.second;
+			Time += abs(NR - R) + abs(NC - C);
+			if (Time > T)
+			{
+				break;
+			}
+
+			++Kill;
+			R = NR;
+			C = NC;
+		}
+
+		Max = max(Max, Kill);
 		return;
 	}
 
-	if (MKill == K)
+	for (int i = 0; i < K; ++i)
 	{
-		bFound = true;
-		return;
-	}
-
-	for (int i = 0; i < 4; ++i)
-	{
-		int NR = R + DY[i];
-		int NC = C + DX[i];
-		if (NR < 0 || NR > N - 1 || NC < 0 || NC > M - 1
-			|| Visited[NR][NC])
+		if (Check[i])
 		{
 			continue;
 		}
 
-		if (bFound)
-		{
-			return;
-		}
-
-		DFS(Time + 1, Kill, NR, NC);
-		Visited[NR][NC] = false;
+		Check[i] = true;
+		Way[Idx] = i;
+		Backtracking(Idx + 1);
+		Check[i] = false;
 	}
 }
 
-int Woojung()
+int ElectricField(int SR, int SC)
 {
-	Max = 0;
+	int Kill = 0;
 
 	for (int i = 0; i < K; ++i)
 	{
-		memset(Visited, false, sizeof(Visited));
-		MKill = 0;
-		bFound = false;
-		DFS(0, 0, MP[i].first, MP[i].second);
-		Max = max(Max, MKill);
-	}
-
-	return Max;
-}
-
-void BFS(int SR, int SC)
-{
-	queue<pair<int, pair<int, int>>> SQ;
-
-	Visited[SR][SC] = true;
-	SQ.emplace(0, pair<int, int>(SR, SC));
-	while (!SQ.empty())
-	{
-		int L = SQ.front().first;
-		int R = SQ.front().second.first;
-		int C = SQ.front().second.second;
-		SQ.pop();
-
-		if (L > 0)
+		int S = MP[i].first;
+		int R = MP[i].second.first;
+		int C = MP[i].second.second;
+		int L = abs(R - SR) + abs(C - SC);
+		if (L == 0 || P / L >= S)
 		{
-			for (const int& M : Mosquito[R][C])
-			{
-				if (P / L >= M)
-				{
-					++MKill;
-				}
-			}
-		}
-
-		for (int i = 0; i < 4; ++i)
-		{
-			int NR = R + DY[i];
-			int NC = C + DX[i];
-			if (NR < 0 || NR > N - 1 || NC < 0 || NC > M - 1
-				|| Visited[NR][NC])
-			{
-				continue;
-			}
-
-			Visited[NR][NC] = true;
-			SQ.emplace(L + 1, pair<int, int>(NR, NC));
+			++Kill;
 		}
 	}
-}
 
-int Arrm()
-{
-	Max = 0;
-
-	for (int i = 0; i < K; ++i)
-	{
-		memset(Visited, false, sizeof(Visited));
-		MKill = Mosquito[MP[i].first][MP[i].second].size();
-
-		BFS(MP[i].first, MP[i].second);
-		Max = max(Max, MKill);
-	}
-
-	return Max;
+	return Kill;
 }
 
 int main()
@@ -136,9 +80,22 @@ int main()
 	{
 		int R, C, S;
 		cin >> R >> C >> S;
-		Mosquito[R][C].emplace_back(S);
-		MP[i] = p(R, C);
+		MP[i].first = S;
+		MP[i].second = p(R, C);
 	}
 
-	cout << Woojung() << ' ' << Arrm();
+	int Woo = 0;
+	Backtracking(0);
+	Woo = max(Woo, Max);
+
+	int Arm = 0;
+	for (int i = 1; i <= N; ++i)
+	{
+		for (int j = 1; j <= M; ++j)
+		{
+			Arm = max(Arm, ElectricField(i, j));
+		}
+	}
+
+	cout << Woo << ' ' << Arm;
 }
