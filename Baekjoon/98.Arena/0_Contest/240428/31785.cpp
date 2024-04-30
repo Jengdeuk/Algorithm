@@ -1,9 +1,7 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 
-int N, Sum;
-int Num[500000], Temp[500000];
+int Num[500001], Sum[500001];
 
 int main()
 {
@@ -12,46 +10,36 @@ int main()
 
 	int Q;
 	cin >> Q;
+	
+	int S = 0, E = 0;
 	for (int i = 0; i < Q; ++i)
 	{
 		int A;
 		cin >> A;
 		if (A == 1)
 		{
-			cin >> Num[N];
-			Sum += Num[N];
-			++N;
+			++E;
+			cin >> Num[E];
+			Sum[E] = Sum[E - 1] + Num[E];
 		}
 		else
 		{
-			int SumL = 0, SumR = 0;
-
-			int j = 0;
-			for (int i = N / 2; i < N; ++i)
-			{
-				SumR += Num[i];
-				Temp[j] = Num[i];
-				++j;
-			}
-
-			SumL = Sum - SumR;
+			int SumL = Sum[(S + E) / 2] - Sum[S];
+			int SumR = Sum[E] - Sum[(S + E) / 2];
 			if (SumL > SumR)
 			{
+				E = (S + E) / 2;
 				cout << SumR << '\n';
-				Sum = SumL;
-				N /= 2;
 			}
 			else
 			{
+				S = (S + E) / 2;
 				cout << SumL << '\n';
-				Sum = SumR;
-				N = N / 2 + (N % 2);
-				memcpy(Num, Temp, sizeof(Num));
 			}
 		}
 	}
 
-	for (int i = 0; i < N; ++i)
+	for (int i = S + 1; i <= E; ++i)
 	{
 		cout << Num[i] << ' ';
 	}
