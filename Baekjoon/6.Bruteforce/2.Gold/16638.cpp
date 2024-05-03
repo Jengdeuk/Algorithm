@@ -1,103 +1,123 @@
 #include <iostream>
 #include <string>
 #include <climits>
+#include <cstring>
 using namespace std;
 
 int N;
-string S;
+string Formula;
+
+int Idx[19], Val[19];
+bool BrOp[9], Visited[9];
 int Max = INT_MIN;
 
-int Cal(char Op, int L, int R)
+int Find(int Node)
 {
-	switch (Op)
+	if (Node == Idx[Node])
 	{
-	case '+':
-		return L + R;
-	case '-':
-		return L - R;
-	case '*':
-		return L * R;
+		return Node;
 	}
+
+	return Idx[Node] = Find(Idx[Node]);
 }
 
-void DFS(int Cur, int Val)
+void Union(int NodeA, int NodeB)
 {
-	if (Cur > N)
+	int A = Find(NodeA);
+	int B = Find(NodeB);
+	int Min = min(A, B);
+	Idx[A] = Min;
+	Idx[B] = Min;
+}
+
+int Calculate()
+{
+	memset(Visited, false, sizeof(Visited));
+
+	for (int i = 0; i < N; ++i)
 	{
-		Max = max(Max, Val);
+		Idx[i] = i;
+		Val[i] = Formula[i] - '0';
+	}
+
+	for (int i = 0, j = 1; i < N / 2 && j < N; ++i, j += 2)
+	{
+		if (!BrOp[i] || Visited[i])
+		{
+			continue;
+		}
+
+		Visited[i] = true;
+		int L = Find(j - 1);
+		int R = Find(j + 1);
+		switch (Formula[j])
+		{
+		case '+':
+			Val[L] = Val[L] + Val[R];
+			break;
+		case '-':
+			Val[L] = Val[L] - Val[R];
+			break;
+		case '*':
+			Val[L] = Val[L] * Val[R];
+			break;
+		}
+		Union(L, R);
+	}
+
+	for (int i = 0, j = 1; i < N / 2 && j < N; ++i, j += 2)
+	{
+		if (Formula[j] != '*' || Visited[i])
+		{
+			continue;
+		}
+
+		int L = Find(j - 1);
+		int R = Find(j + 1);
+		Val[L] = Val[L] * Val[R];
+		Union(L, R);
+	}
+
+	for (int i = 0, j = 1; i < N / 2 && j < N; ++i, j += 2)
+	{
+		if (Visited[i])
+		{
+			continue;
+		}
+
+		int L = Find(j - 1);
+		int R = Find(j + 1);
+		switch (Formula[j])
+		{
+		case '+':
+			Val[L] = Val[L] + Val[R];
+			break;
+		case '-':
+			Val[L] = Val[L] - Val[R];
+			break;
+		}
+		Union(L, R);
+	}
+
+	return Val[0];
+}
+
+void DFS(int Cur)
+{
+	if (Cur == N / 2)
+	{
+		Max = max(Max, Calculate());
 		return;
 	}
 
-	if (Cur + 2 < N)
+	if (Cur == 0 || !BrOp[Cur - 1])
 	{
-		int L = S[Cur] - '0';
-		int R = S[Cur + 2] - '0';
-		int V = Cal(S[Cur + 1], L, R);
-
-		if (Cur == 0)
-		{
-			DFS(Cur + 4, V);
-		}
-		else if (S[Cur + 1] == '*')
-		{
-			int L = S[Cur] - '0';
-			int R = S[Cur + 2] - '0';
-			int V = L * R;
-
-			bool bDup = false;
-			int Idx = Cur + 3;
-			while (Idx < N && S[Idx] == '*')
-			{
-				bDup = true;
-				V *= S[Idx + 1] - '0';
-				Idx += 2;
-			}
-
-			L = Val;
-			R = V;
-			V = Cal(S[Cur - 1], L, R);
-			DFS((!bDup) ? Cur + 4 : Idx + 1, V);
-		}
-		else
-		{
-			L = Val;
-			R = V;
-			V = Cal(S[Cur - 1], L, R);
-			DFS(Cur + 4, V);
-		}
+		BrOp[Cur] = true;
+		DFS(Cur + 1);
 	}
 
-	if (Cur == 0)
-	{
-		DFS(Cur + 2, S[Cur] - '0');
-	}
-	else if (S[Cur + 1] == '*')
-	{
-		int L = S[Cur] - '0';
-		int R = S[Cur + 2] - '0';
-		int V = L * R;
-		
-		bool bDup = false;
-		int Idx = Cur + 3;
-		while (Idx < N && S[Idx] == '*')
-		{
-			bDup = true;
-			V *= S[Idx + 1] - '0';
-			Idx += 2;
-		}
-
-		L = Val;
-		R = V;
-		V = Cal(S[Cur - 1], L, R);
-		DFS((!bDup) ? Cur + 4 : Idx + 1, V);
-	}
-	else
-	{
-		int L = Val;
-		int R = S[Cur] - '0';
-		int V = Cal(S[Cur - 1], L, R);
-		DFS(Cur + 2, V);
-	}
+	BrOp[Cur] = false;
+	DFS(Cur + 1);
 }
 
 int main()
@@ -105,7 +125,7 @@ int main()
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr); cout.tie(nullptr);
 
-	cin >> N >> S;
-	DFS(0, 0);
+	cin >> N >> Formula;
+	DFS(0);
 	cout << Max;
 }
