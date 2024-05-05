@@ -3,12 +3,11 @@
 using namespace std;
 
 int N, M;
-int Code[6], Scale[6], Sol[6];
+int Code[6], Scale[6], Sol[6], Cur[6];
 int Min = 987654321;
 
-bool Check();
 int Count();
-
+bool Check();
 void DFS(int Idx);
 void InputScale(string S, int Index);
 void InputCode(string S, int Index);
@@ -53,38 +52,39 @@ void DFS(int Idx)
 
 	for (int i = 0; i < M; ++i)
 	{
-		Sol[Idx] = Code[i];
+		int Fret;
+		if (Scale[Idx] == Code[i])
+		{
+			Fret = 0;
+		}
+		else if (Scale[Idx] < Code[i])
+		{
+			Fret = Code[i] - Scale[Idx];
+		}
+		else
+		{
+			Fret = 12 - (Scale[Idx] - Code[i]);
+		}
+
+		Cur[Idx] = Code[i];
+
+		Sol[Idx] = Fret;
 		DFS(Idx + 1);
-		Sol[Idx] = Code[i] + 12;
+
+		Sol[Idx] = Fret + 12;
 		DFS(Idx + 1);
 	}
 }
 
 int Count()
 {
-	int MinFret = 987654321;
-	int MaxFret = 0;
-
+	int MinFret = 987654321, MaxFret = 0;
 	for (int i = 0; i < N; ++i)
 	{
-		int Fret;
-		if (Sol[i] == Scale[i])
+		if (Sol[i] != 0)
 		{
-			Fret = 0;
-		}
-		else if (Sol[i] > Scale[i])
-		{
-			Fret = Sol[i] - Scale[i];
-		}
-		else
-		{
-			Fret = 12 - (Scale[i] - Sol[i]);
-		}
-
-		if (Fret != 0)
-		{
-			MinFret = min(MinFret, Fret);
-			MaxFret = max(MaxFret, Fret);
+			MinFret = min(MinFret, Sol[i]);
+			MaxFret = max(MaxFret, Sol[i]);
 		}
 	}
 
@@ -103,7 +103,7 @@ bool Check()
 	{
 		for (int j = 0; j < M; ++j)
 		{
-			if (Sol[i] % 13 == Code[j])
+			if (Cur[i] == Code[j])
 			{
 				Sound[j] = true;
 				break;
