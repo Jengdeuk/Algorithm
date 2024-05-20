@@ -1,29 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int N, M, Cnt;
-int Sol[1000];
-
-void DFS(int Idx)
-{
-	if (Idx == M)
-	{
-		++Cnt;
-		Cnt %= 1000000007;
-		return;
-	}
-
-	for (int i = 1; i <= 26; ++i)
-	{
-		if (Idx > 0 && abs(Sol[Idx - 1] - i) < N)
-		{
-			continue;
-		}
-
-		Sol[Idx] = i;
-		DFS(Idx + 1);
-	}
-}
+int N, M;
+int DP[1000][27];
 
 int main()
 {
@@ -31,6 +10,33 @@ int main()
 	cin.tie(nullptr); cout.tie(nullptr);
 
 	cin >> N >> M;
-	DFS(0);
-	cout << Cnt;
+
+	for (int i = 1; i <= 26; ++i)
+	{
+		DP[0][i] = 1;
+	}
+
+	for (int i = 1; i < M; ++i)
+	{
+		for (int j = 1; j <= 26; ++j)
+		{
+			for (int k = 1; k <= 26; ++k)
+			{
+				if (abs(j - k) >= N)
+				{
+					DP[i][j] += DP[i - 1][k];
+					DP[i][j] %= 1000000007;
+				}
+			}
+		}
+	}
+
+	int Sum = 0;
+	for (int i = 1; i <= 26; ++i)
+	{
+		Sum += DP[M - 1][i];
+		Sum %= 1000000007;
+	}
+
+	cout << Sum;
 }
