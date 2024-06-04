@@ -8,16 +8,23 @@ int N, Cnt;
 p Point[50];
 int Sol[4];
 
-ll Func(int A, int B, int C)
+int Func(int A, int B, int C)
 {
-	return (Point[B].first - Point[A].first) * (Point[C].second - Point[A].second) - (Point[B].second - Point[A].second) * (Point[C].first - Point[A].first);
+	ll Value = (Point[B].first - Point[A].first) * (Point[C].second - Point[A].second) - (Point[B].second - Point[A].second) * (Point[C].first - Point[A].first);
+	if (Value > 0)
+	{
+		return 1;
+	}
+
+	return -1;
 }
 
 bool Check()
 {
 	int A = Sol[0], B = Sol[1], C = Sol[2], D = Sol[3];
 
-	int Num = (Func(A, B, C) * Func(A, B, D) < 0 ? 1 : 0);
+	int Num = 0;
+	Num += (Func(A, B, C) * Func(A, B, D) < 0 ? 1 : 0);
 	Num += (Func(A, C, B) * Func(A, C, D) < 0 ? 1 : 0);
 	Num += (Func(A, D, B) * Func(A, D, C) < 0 ? 1 : 0);
 	Num += (Func(B, C, A) * Func(B, C, D) < 0 ? 1 : 0);
