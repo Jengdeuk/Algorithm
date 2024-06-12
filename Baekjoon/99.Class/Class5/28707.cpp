@@ -1,34 +1,68 @@
 #include <iostream>
-#include <list>
 #include <algorithm>
-#include <unordered_map>
+#include <vector>
+#include <map>
+#include <queue>
 using namespace std;
 
 typedef pair<int, int> p;
 typedef pair<int, p> pp;
 
+typedef vector<int> vec;
+typedef pair<int, vec> pv;
+
 int N, M;
 int S[8], O[8];
 pp Op[10];
 
-unordered_map<int[], int> D;
+map<vec, int> D;
 
-bool Check()
+vec NewVec(vec V, int L, int R)
 {
-	for (int i = 0; i < N; ++i)
-	{
-		if (S[i] != O[i])
-		{
-			return false;
-		}
-	}
-
-	return true;
+	int Temp = V[L];
+	V[L] = V[R];
+	V[R] = Temp;
+	return V;
 }
 
 void Dijkstra()
 {
+	vec V;
+	V.reserve(N);
+	for (int i = 0; i < N; ++i)
+	{
+		V.emplace_back(S[i]);
+	}
+	D[V] = 0;
 
+	priority_queue<pv, vector<pv>, greater<pv>> PQ;
+	PQ.emplace(0, V);
+	while (!PQ.empty())
+	{
+		vec CV = PQ.top().second;
+		int CW = PQ.top().first;
+		PQ.pop();
+
+		if (CW > D[CV])
+		{
+			continue;
+		}
+
+		for (int i = 0; i < M; ++i)
+		{
+			int L = Op[i].second.first;
+			int R = Op[i].second.second;
+			int W = Op[i].first;
+
+			vec NV = NewVec(CV, L - 1, R - 1);
+			int NW = CW + W;
+			if (D.find(NV) == D.end() || NW < D[NV])
+			{
+				D[NV] = NW;
+				PQ.emplace(NW, NV);
+			}
+		}
+	}
 }
 
 int main()
@@ -53,4 +87,20 @@ int main()
 	}
 
 	Dijkstra();
+
+	vec V;
+	V.reserve(N);
+	for (int i = 0; i < N; ++i)
+	{
+		V.emplace_back(O[i]);
+	}
+
+	if (D.find(V) != D.end())
+	{
+		cout << D[V];
+	}
+	else
+	{
+		cout << -1;
+	}
 }
