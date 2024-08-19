@@ -1,95 +1,16 @@
 #include <iostream>
-#include <cstring>
+#include <string>
+#include <unordered_map>
+#include <vector>
 #include <algorithm>
 using namespace std;
 
-const char SRP[3] = { 'S', 'R', 'P' };
-
 int N, M, K;
-int F[50][50];
+string F[50];
 
-bool D[50];
-int S[50];
-int Min = 51, Ans[50];
-
-int SurvNum()
+bool Comp(const pair<string, int>& L, const pair<string, int>& R)
 {
-	int Cnt = 0;
-	for (int i = 0; i < N; ++i)
-	{
-		if (!D[i])
-		{
-			++Cnt;
-		}
-	}
-
-	return Cnt;
-}
-
-bool IsAllSame(int R)
-{
-	int Cnt[3] = {};
-	for (int i = 0; i < N; ++i)
-	{
-		if (D[i])
-		{
-			continue;
-		}
-
-		++Cnt[F[i][R]];
-	}
-
-	return ((Cnt[0] == 0 && Cnt[1] == 0) || (Cnt[1] == 0 && Cnt[2] == 0) || (Cnt[2] == 0 && Cnt[0] == 0));
-}
-
-void Kill(int R, int W)
-{
-	for (int i = 0; i < N; ++i)
-	{
-		if (D[i] || (W < 2 && F[i][R] == W + 1) || (W == 2 && F[i][R] == 0))
-		{
-			continue;
-		}
-
-		D[i] = true;
-	}
-}
-
-void Round(int R)
-{
-	int Surv = SurvNum();
-	if (Surv == 0)
-	{
-		return;
-	}
-
-	if (Surv <= K)
-	{
-		if (R < Min)
-		{
-			Min = R;
-			memcpy(Ans, S, sizeof(Ans));
-		}
-
-		return;
-	}
-
-	if (IsAllSame(R))
-	{
-		return;
-	}
-
-	for (int i = 0; i < 3; ++i)
-	{
-		bool Temp[50] = {};
-		memcpy(Temp, D, sizeof(Temp));
-
-		S[R] = i;
-		Kill(R, i);
-		Round(R + 1);
-
-		memcpy(D, Temp, sizeof(D));
-	}
+	return (L.second == R.second ? L.first < R.first : L.second < R.second);
 }
 
 int main()
@@ -100,38 +21,53 @@ int main()
 	cin >> N >> M >> K;
 	for (int i = 0; i < N; ++i)
 	{
-		for (int j = 0; j < M; ++j)
-		{
-			char Ch;
-			cin >> Ch;
-			switch (Ch)
-			{
-			case 'S':
-				F[i][j] = 0;
-				break;
-
-			case 'R':
-				F[i][j] = 1;
-				break;
-
-			case 'P':
-				F[i][j] = 2;
-				break;
-			}
-		}
+		cin >> F[i];
 	}
 
-	Round(0);
-
-	if (Min < 51)
+	bool bCompleted = false;
+	for (int i = 1; i <= M; ++i)
 	{
-		cout << Min << '\n';
-		for (int i = 0; i < Min; ++i)
+		unordered_map<string, int> Map;
+
+		for (int j = 0; j < N; ++j)
 		{
-			cout << SRP[Ans[i]];
+			string S = F[j].substr(0, i);
+			string Key;
+			for (int k = 0; k < i; ++k)
+			{
+				Key.push_back(S[k]);
+			}
+
+			++Map[Key];
+		}
+
+		string MinKey = (*min_element(Map.begin(), Map.end(), Comp)).first;
+		if (Map[MinKey] <= K)
+		{
+			bCompleted = true;
+			cout << i << '\n';
+			for (int i = 0; i < MinKey.size(); ++i)
+			{
+				switch (MinKey[i])
+				{
+				case 'S':
+					cout << 'P';
+					break;
+
+				case 'R':
+					cout << 'S';
+					break;
+
+				case 'P':
+					cout << 'R';
+					break;
+				}
+			}
+			break;
 		}
 	}
-	else
+
+	if (!bCompleted)
 	{
 		cout << -1;
 	}
