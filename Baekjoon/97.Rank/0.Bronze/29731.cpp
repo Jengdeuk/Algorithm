@@ -32,7 +32,7 @@ int main()
 		bool bFound = false;
 		for (int j = 0; j < 7; ++j)
 		{
-			if (S.compare(Sol[j]) != 0)
+			if (S.compare(Sol[j]) == 0)
 			{
 				bFound = true;
 				break;
