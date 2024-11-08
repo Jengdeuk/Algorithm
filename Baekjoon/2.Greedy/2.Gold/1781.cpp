@@ -1,17 +1,16 @@
 #include <iostream>
+#include <queue>
 #include <algorithm>
 using namespace std;
 
-typedef long long ll;
-
-typedef pair<int, ll> p;
+typedef pair<int, int> p;
 
 int N;
 p S[200000];
 
 bool Compare(const p& L, const p& R)
 {
-	return (L.second == R.second ? L.first < R.first : L.second > R.second);
+	return (L.first == R.first ? L.second > R.second : L.first > R.first);
 }
 
 int main()
@@ -28,17 +27,19 @@ int main()
 
 	sort(S, S + N, Compare);
 
-	ll Sum = 0;
-	int Time = N;
-	for (int i = 0; i < N; ++i)
+	int Sum = 0, Idx = 0;
+	priority_queue<int> Q;
+	for (int i = N; i >= 1; --i)
 	{
-		if (Time <= S[i].first)
+		while (S[Idx].first == i)
 		{
-			Sum += S[i].second;
-			if (--Time == 0)
-			{
-				break;
-			}
+			Q.emplace(S[Idx++].second);
+		}
+
+		if (!Q.empty())
+		{
+			Sum += Q.top();
+			Q.pop();
 		}
 	}
 
