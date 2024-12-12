@@ -1,0 +1,2731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Baekjoon">
+      <UniqueIdentifier>{1c9e7561-7c82-4669-bdfd-d3170b03e6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class">
+      <UniqueIdentifier>{fd2bedfd-8f66-476f-a011-fb159bfc1dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class\Class2">
+      <UniqueIdentifier>{f35aec86-0e84-4854-9b62-a65268b22814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class\Class0">
+      <UniqueIdentifier>{c2734cae-ee88-4ac9-9c51-9f09e1e5f67c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class\Class1">
+      <UniqueIdentifier>{0a0e1625-3055-4784-81c3-80578bc5690e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class\Class3">
+      <UniqueIdentifier>{8a257ce8-1a1f-4ee6-9c36-dce0bb2451b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class\Class4">
+      <UniqueIdentifier>{ca7845ef-b63f-49cd-a9fb-82e0fb488ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\99.Class\Class5">
+      <UniqueIdentifier>{2b3b4ddc-0b2c-4aef-89c9-db3aff5b99bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena">
+      <UniqueIdentifier>{74df3cd9-02d2-4127-8afb-0bafa436780b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\97.Rank">
+      <UniqueIdentifier>{fb1f0c18-6364-4792-9754-435b7cf02866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\0.DataStructure">
+      <UniqueIdentifier>{3dd93dd3-d0aa-4392-b504-14769e417786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\0.DataStructure\1.Silver">
+      <UniqueIdentifier>{fbb1dee9-0631-4a99-a8b2-29f5ec92617e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\0.DataStructure\2.Gold">
+      <UniqueIdentifier>{33763978-7edc-40bd-915c-3946075d1ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\1.DynamicProgramming">
+      <UniqueIdentifier>{f2e7284d-dbfb-4ee0-b126-3e4fb5ac398f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\1.DynamicProgramming\1.Silver">
+      <UniqueIdentifier>{d68388d9-6640-47cc-be06-7adc819ca37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\1.DynamicProgramming\2.Gold">
+      <UniqueIdentifier>{b7ecb8e7-5cd7-4726-8db4-0dfa7db634c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\2.Greedy">
+      <UniqueIdentifier>{c2f74b1b-b37b-44ab-b447-6c9542c8f056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\2.Greedy\1.Silver">
+      <UniqueIdentifier>{3ab0b0cd-9762-4be4-a841-65915a79f549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\2.Greedy\2.Gold">
+      <UniqueIdentifier>{61614562-a18c-4c05-956e-48e7a4c0c458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\3.DFS">
+      <UniqueIdentifier>{b7494b99-1715-4145-a0a9-222325dd2009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\3.DFS\1.Silver">
+      <UniqueIdentifier>{4ad09537-b8f3-4d2d-b5ad-dca635b93de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\3.DFS\2.Gold">
+      <UniqueIdentifier>{d2ecaf58-0555-4f20-9bb4-c3a739de45dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\4.BFS">
+      <UniqueIdentifier>{7e3dae67-737b-4b25-bb4a-8d3992610ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\4.BFS\1.Silver">
+      <UniqueIdentifier>{e6dc3ff0-18d5-4024-859c-f652852e6cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\4.BFS\2.Gold">
+      <UniqueIdentifier>{63abfc8e-bc00-4b67-bb9d-f9cfd65928b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\5.BinarySearch">
+      <UniqueIdentifier>{3384a59b-ade5-4f2f-a95e-4debc184c309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\5.BinarySearch\1.Silver">
+      <UniqueIdentifier>{8c52405d-0b1d-4c4d-9f05-e5609b73d4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\5.BinarySearch\2.Gold">
+      <UniqueIdentifier>{6b99c3ca-55a7-46e7-b040-b8d7dd436fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\6.Bruteforce">
+      <UniqueIdentifier>{ae03f77b-57d4-44e3-b480-0ca55ab8d475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\6.Bruteforce\1.Silver">
+      <UniqueIdentifier>{29e7f671-083b-43b9-b829-fa1fcb55a080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\6.Bruteforce\2.Gold">
+      <UniqueIdentifier>{b61d2af6-db22-4790-9d00-f549c5c6f025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\7.Sorting">
+      <UniqueIdentifier>{36cefd35-c236-4b14-8921-ea6e7d6a393e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\7.Sorting\1.Silver">
+      <UniqueIdentifier>{e81f244a-71ca-44a9-a6ea-9db0b284aa9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\7.Sorting\2.Gold">
+      <UniqueIdentifier>{1dfa652d-d137-4ad9-b11b-c1cc9549c664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\8.DisjointSet">
+      <UniqueIdentifier>{f930acd0-71b3-4607-be7d-7f670f9ef62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\8.DisjointSet\1.Silver">
+      <UniqueIdentifier>{5abca76b-e079-40ad-b5b3-9d6900e77c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\8.DisjointSet\2.Gold">
+      <UniqueIdentifier>{402490f4-c046-433b-8a1d-51a10edc6231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\9.TopologicalSorting">
+      <UniqueIdentifier>{eb6e60fb-9377-4839-8cb5-8732fd9b20e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\9.TopologicalSorting\1.Silver">
+      <UniqueIdentifier>{c8596619-c3d8-4ceb-b5b4-1a37a40176db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\9.TopologicalSorting\2.Gold">
+      <UniqueIdentifier>{8b1011d0-05da-4a23-acfa-2813af5f7e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\10.Dijkstra">
+      <UniqueIdentifier>{1803b07e-7fb4-4dcf-99eb-0a4b63a168a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\10.Dijkstra\1.Silver">
+      <UniqueIdentifier>{d48fdaa6-455e-4f56-b060-701f70eb4868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\10.Dijkstra\2.Gold">
+      <UniqueIdentifier>{2da6f70a-e108-4d7d-bdaa-94c77cb9bb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\13.Kruskal">
+      <UniqueIdentifier>{dd850bf2-37cb-4cdf-9a3b-0b8f20bc388d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\13.Kruskal\1.Silver">
+      <UniqueIdentifier>{d676f897-3dc5-4f2f-ab2a-84782c36e579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\13.Kruskal\2.Gold">
+      <UniqueIdentifier>{5b15a288-1b67-4278-bd25-0468e5fc4deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\12.Floyd-warshall">
+      <UniqueIdentifier>{efb81770-f944-4f0f-bb29-7905bf710693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\12.Floyd-warshall\1.Silver">
+      <UniqueIdentifier>{95a2110d-5333-4ef7-bc61-f6794e20f46b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\12.Floyd-warshall\2.Gold">
+      <UniqueIdentifier>{75f5d23e-7f23-4817-8966-773435dfdd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\11.Bellman-ford">
+      <UniqueIdentifier>{a3b7c7c4-f7a9-4059-99a6-5d7d92a4d78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\11.Bellman-ford\1.Silver">
+      <UniqueIdentifier>{fd39b19e-29de-4eb5-b3e8-ee212fe9392e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\11.Bellman-ford\2.Gold">
+      <UniqueIdentifier>{2066facf-269a-4867-ad2a-375bde2cafe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\14.Tree">
+      <UniqueIdentifier>{c14559a7-b30c-4157-adeb-118a463d53aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\14.Tree\1.Silver">
+      <UniqueIdentifier>{ac679b90-4fc9-4399-9a5c-937b66c55be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\14.Tree\2.Gold">
+      <UniqueIdentifier>{fe859713-5f9b-4a8f-90a4-a466dabcb075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\14.Tree\3.Platinum">
+      <UniqueIdentifier>{64a231e2-8a09-4e1d-8eb2-89f77f3ec1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\15.NumberTheory">
+      <UniqueIdentifier>{e872ebf1-69d3-4473-a37d-555276ef6026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\15.NumberTheory\1.Silver">
+      <UniqueIdentifier>{565aff46-c995-4bb6-b0da-1830d28f47b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\15.NumberTheory\2.Gold">
+      <UniqueIdentifier>{a5612cdd-95d5-4b7a-9423-8d648f9b184c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\16.Combinatorics">
+      <UniqueIdentifier>{133ac0b6-5c76-4021-9223-adf0abf085f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\16.Combinatorics\1.Silver">
+      <UniqueIdentifier>{d9e13b62-1be5-4ebe-a856-1924f463f7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\16.Combinatorics\2.Gold">
+      <UniqueIdentifier>{9321d234-bddd-4c56-a420-40bc891aa965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest">
+      <UniqueIdentifier>{b2e03e38-7be2-4304-9c25-876eff6bb634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240302">
+      <UniqueIdentifier>{31c51469-faa6-4f14-9c9e-b69d1d150c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\A22">
+      <UniqueIdentifier>{b1a99b84-9f5c-445b-a4c2-5a9a5f1cf87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\A23">
+      <UniqueIdentifier>{fa1c712e-234a-4123-8f34-7e5128a74ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240309">
+      <UniqueIdentifier>{82e167fe-d6a0-4480-bf4a-af5a5954f721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240310">
+      <UniqueIdentifier>{8c2267f5-8365-407d-9172-c0126416d4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\A24">
+      <UniqueIdentifier>{d2e76b1c-c7d8-4b50-b994-b63c7af203ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\2.Greedy\4.Diamond">
+      <UniqueIdentifier>{7a6ee35b-6b43-4a3a-94bd-d941a7c6eb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\5.BinarySearch\3.Platinum">
+      <UniqueIdentifier>{2c3716d6-942e-4274-8a64-d6694cd915ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\0.DataStructure\3.Platinum">
+      <UniqueIdentifier>{f1323c85-ba95-471e-b6cf-da08058ae179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\97.Rank\0.Bronze">
+      <UniqueIdentifier>{5b2c4d85-3d30-4169-9515-017d2b8a045a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\97.Rank\1.Silver">
+      <UniqueIdentifier>{2528dde5-049a-4ae2-8792-6b75e9274d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\97.Rank\5.Ruby">
+      <UniqueIdentifier>{b3ce920e-6290-444a-8f5d-d67c1c5d2cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240330">
+      <UniqueIdentifier>{6fd76730-2b94-4328-b109-4bf488f1e565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240406">
+      <UniqueIdentifier>{1a821551-a06d-47f1-80c7-d418c3604e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\97.Rank\2.Gold">
+      <UniqueIdentifier>{fde3c3ee-16ce-4861-aff5-d68888648316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\8.DisjointSet\3.Platinum">
+      <UniqueIdentifier>{44841664-7c73-4bab-a9c1-1d188d1bf15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\13.Kruskal\3.Platinum">
+      <UniqueIdentifier>{86e5291e-a1e7-4b0f-ae3b-af20930075b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\2.Greedy\3.Platinum">
+      <UniqueIdentifier>{16b5764f-2a5a-406c-a85e-4cf34639058a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240428">
+      <UniqueIdentifier>{0d367c17-61dc-4dcc-b479-83bc9b4602a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240504">
+      <UniqueIdentifier>{53c33b8a-986b-4def-819f-42aca9df923a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\6.Bruteforce\0.Bronze">
+      <UniqueIdentifier>{2ec8f2ee-ad5a-44bd-b15f-87a79cbd719e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240511">
+      <UniqueIdentifier>{ef005be9-2116-42fd-bee0-f5a278fc59b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers">
+      <UniqueIdentifier>{10fb1541-5388-46e9-9d6b-839b67b7d8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers\Level1">
+      <UniqueIdentifier>{707b2436-656c-4765-b90b-272b2f8d6ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers\Level2">
+      <UniqueIdentifier>{52dc44c9-4e67-4665-bcf0-0ceae938990a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers\Level3">
+      <UniqueIdentifier>{46ff4ade-fd4d-47d5-a83b-c5c30c924be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers\Level4">
+      <UniqueIdentifier>{d4ede68c-6009-495f-9275-106ccf7363e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240518">
+      <UniqueIdentifier>{a17807d4-1c13-48b9-b66c-423088ec99b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240519">
+      <UniqueIdentifier>{af99543d-308a-4a34-8a0f-ddd0ba29b52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240601">
+      <UniqueIdentifier>{ad1f503c-f396-4bb6-b15f-88063eb18c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\1.DynamicProgramming\0.Bronze">
+      <UniqueIdentifier>{1f7506bd-6d35-48fe-b8ca-7730f1490e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\98.Arena\0_Contest\240817">
+      <UniqueIdentifier>{f55d6b52-3432-4868-91a8-171bf79e3261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\2.Greedy\0.Bronze">
+      <UniqueIdentifier>{8ddb895a-cdae-4b43-a1d8-6a0a140ac1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Baekjoon\7.Sorting\0.Bronze">
+      <UniqueIdentifier>{1192633e-790a-43b0-898d-23ccf808b96e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Baekjoon\99.Class\Class1\1000.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\1008.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\1001.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2438.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2475.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2557.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2739.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2741.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2753.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\9498.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10171.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10172.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10869.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10871.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10950.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10951.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10952.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10998.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\11654.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\25083.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\27866.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2439.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\11720.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2562.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2884.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10250.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10818.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\1152.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2577.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2675.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\2920.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\3052.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\8958.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\10809.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\1157.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\4153.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1978.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2231.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2292.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2798.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\15829.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1259.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1546.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2609.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10718.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10430.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\8393.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2588.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\14681.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11021.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11022.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10926.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\18108.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2742.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\15552.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2525.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2480.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10872.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2558.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11382.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11718.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10807.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2775.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2869.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10989.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\11050.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1181.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1436.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1676.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2751.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\7568.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10814.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\11650.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\11866.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1018.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\2164.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\9012.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10828.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10845.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10866.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\1920.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10816.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\11651.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\4949.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\10773.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\18110.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\11723.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\1620.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\1764.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\11047.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\11399.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\17219.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1009.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1032.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1037.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1075.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\2630.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\1074.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\5525.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2440.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2338.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\15740.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\25304.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\3003.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\7287.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2743.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5597.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\25314.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10757.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\9086.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2738.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1110.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class4\1629.cpp">
+      <Filter>Baekjoon\99.Class\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\2166.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10039.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\3046.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10808.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5543.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2752.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10101.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\1806.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2530.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10797.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10156.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2845.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5554.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1264.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10817.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\1085.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2441.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2444.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\3009.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10988.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\22\31433.cpp">
+      <Filter>Baekjoon\98.Arena\A22</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\22\31434.cpp">
+      <Filter>Baekjoon\98.Arena\A22</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\22\31432.cpp">
+      <Filter>Baekjoon\98.Arena\A22</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5532.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5596.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\24263.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\15439.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5717.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11365.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11721.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2442.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10810.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\11719.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\5086.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2446.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\0.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.cpp">
+      <Filter>Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2566.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2501.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\10953.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2443.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\2445.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class0\3053.cpp">
+      <Filter>Baekjoon\99.Class\Class0</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1874.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1927.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1966.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\11279.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\11286.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\11659.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\18115.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\1253.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\2467.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\2473.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\5430.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\7662.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1003.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1149.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1463.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1932.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\2579.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\2839.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\9095.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\9461.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\9465.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11053.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11660.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11726.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11727.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\17626.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2096.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2342.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\9251.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\9252.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\10942.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\17404.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1541.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1931.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\13305.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1715.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\1012.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\2606.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\2667.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\11724.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15650.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15652.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15654.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15657.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15663.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15666.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\2239.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\2580.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\10026.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\1260.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\1697.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\2178.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\14940.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\16953.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\21736.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\7569.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\7576.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\9019.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\16928.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\1.Silver\1654.cpp">
+      <Filter>Baekjoon\5.BinarySearch\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\1.Silver\2512.cpp">
+      <Filter>Baekjoon\5.BinarySearch\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\1.Silver\2805.cpp">
+      <Filter>Baekjoon\5.BinarySearch\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\2110.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\2143.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\12015.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\14501.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\18111.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\20529.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1107.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\14500.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\1946.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\2108.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\18870.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\1717.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\1976.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\20040.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9.TopologicalSorting\2.Gold\1005.cpp">
+      <Filter>Baekjoon\9.TopologicalSorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9.TopologicalSorting\2.Gold\2252.cpp">
+      <Filter>Baekjoon\9.TopologicalSorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9.TopologicalSorting\2.Gold\2623.cpp">
+      <Filter>Baekjoon\9.TopologicalSorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\1238.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\1753.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\1916.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\13549.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\11.Bellman-ford\2.Gold\1865.cpp">
+      <Filter>Baekjoon\11.Bellman-ford\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\11.Bellman-ford\2.Gold\11657.cpp">
+      <Filter>Baekjoon\11.Bellman-ford\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\12.Floyd-warshall\1.Silver\1389.cpp">
+      <Filter>Baekjoon\12.Floyd-warshall\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\12.Floyd-warshall\1.Silver\11403.cpp">
+      <Filter>Baekjoon\12.Floyd-warshall\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\12.Floyd-warshall\2.Gold\11404.cpp">
+      <Filter>Baekjoon\12.Floyd-warshall\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\1197.cpp">
+      <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\1647.cpp">
+      <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\1922.cpp">
+      <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\4386.cpp">
+      <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\1.Silver\1991.cpp">
+      <Filter>Baekjoon\14.Tree\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\1.Silver\11725.cpp">
+      <Filter>Baekjoon\14.Tree\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\2042.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\2357.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\3584.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\10868.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\11437.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\11505.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\3.Platinum\11438.cpp">
+      <Filter>Baekjoon\14.Tree\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\1735.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\1929.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\6064.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\1644.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\11689.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\27172.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\1.Silver\9375.cpp">
+      <Filter>Baekjoon\16.Combinatorics\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\2.Gold\1759.cpp">
+      <Filter>Baekjoon\16.Combinatorics\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\5639.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\23\31458.cpp">
+      <Filter>Baekjoon\98.Arena\A23</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\23\31460.cpp">
+      <Filter>Baekjoon\98.Arena\A23</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\23\31459.cpp">
+      <Filter>Baekjoon\98.Arena\A23</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\23\31462.cpp">
+      <Filter>Baekjoon\98.Arena\A23</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\12865.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\15686.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15649.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1158.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\17070.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\1043.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1912.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\1504.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\1967.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\2156.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\1987.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class4\2448.cpp">
+      <Filter>Baekjoon\99.Class\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240302\31495.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240302</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240302\31496.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240302</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240302\31497.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240302</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240302\31498.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240302</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240302\31499.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240302</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240309\31533.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240309</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240309\31534.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240309</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240309\31535.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240309</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240309\31536.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240309</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240310\31561.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240310</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240310\31562.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240310</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240310\31563.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240310</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240310\31564.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240310</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240310\31565.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240310</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\10844.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\9663.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\9935.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class4\10830.cpp">
+      <Filter>Baekjoon\99.Class\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15651.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\11054.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\12851.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\4948.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\13172.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\14502.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\2193.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\14888.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\12.Floyd-warshall\2.Gold\14938.cpp">
+      <Filter>Baekjoon\12.Floyd-warshall\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class4\17144.cpp">
+      <Filter>Baekjoon\99.Class\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\14889.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\9020.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\A24\31628.cpp">
+      <Filter>Baekjoon\98.Arena\A24</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\A24\31631.cpp">
+      <Filter>Baekjoon\98.Arena\A24</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\A24\31632.cpp">
+      <Filter>Baekjoon\98.Arena\A24</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\2206.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1904.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\2468.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\2638.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\11779.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\16236.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\4963.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1182.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\1167.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\1918.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class4\11444.cpp">
+      <Filter>Baekjoon\99.Class\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\10799.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\7579.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\9466.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11052.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\11049.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\16724.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\7562.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\6603.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\20303.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1202.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9.TopologicalSorting\2.Gold\1766.cpp">
+      <Filter>Baekjoon\9.TopologicalSorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\4.Diamond\18185.cpp">
+      <Filter>Baekjoon\2.Greedy\4.Diamond</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\4.Diamond\18186.cpp">
+      <Filter>Baekjoon\2.Greedy\4.Diamond</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11722.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11055.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\14002.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\12738.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\3.Platinum\14003.cpp">
+      <Filter>Baekjoon\5.BinarySearch\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\3.Platinum\11003.cpp">
+      <Filter>Baekjoon\0.DataStructure\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1406.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1021.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\9527.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\2583.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\11057.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\10775.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\12100.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\14425.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\16946.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\14442.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\16933.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\0.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1100.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1271.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1292.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1550.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1712.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1924.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1934.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1977.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2163.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2309.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2420.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2455.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2490.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2522.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2523.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2576.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2581.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2587.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2720.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2744.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2745.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2747.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2748.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2750.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2754.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2903.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2908.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2914.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2953.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\4101.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\4344.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5073.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5337.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5338.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5339.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5522.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5585.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5622.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9093.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9506.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9653.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10162.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10699.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10798.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10811.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10813.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10870.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10886.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10991.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11005.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11653.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11942.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\13458.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\15596.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\15894.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\15964.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\19532.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\25305.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\27323.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\0.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1002.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1010.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1026.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1065.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1193.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1316.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1427.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1475.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1476.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1780.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1789.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1992.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2217.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2563.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2941.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\4673.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\10815.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\18258.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\5.Ruby\0.cpp">
+      <Filter>Baekjoon\97.Rank\5.Ruby</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\5.Ruby\10350.cpp">
+      <Filter>Baekjoon\97.Rank\5.Ruby</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1212.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\25206.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\2644.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11655.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1094.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2003.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\24262.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\17478.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1699.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1076.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\1.Silver\11051.cpp">
+      <Filter>Baekjoon\16.Combinatorics\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\9655.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31668.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31669.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31670.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31671.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31672.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31673.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240330\31674.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240330</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9654.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2902.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1269.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\7785.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5565.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2559.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\10610.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10992.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\4999.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10996.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1439.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1004.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\10819.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15655.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15656.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15664.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\15665.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\17387.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240406\31738.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240406</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240406\31739.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240406</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\11004.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\1208.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1509.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1562.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\1799.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2098.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\2263.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\9328.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\12850.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\12849.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\13460.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\15644.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\13459.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\15653.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\17143.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\3.Platinum\2162.cpp">
+      <Filter>Baekjoon\8.DisjointSet\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2565.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\2568.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\3.Platinum\2887.cpp">
+      <Filter>Baekjoon\13.Kruskal\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\3.Platinum\16566.cpp">
+      <Filter>Baekjoon\8.DisjointSet\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\3.Platinum\14939.cpp">
+      <Filter>Baekjoon\2.Greedy\3.Platinum</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\3190.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2293.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\1068.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\16234.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\2470.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1384.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\5002.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\15683.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\5534.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\14246.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\15684.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240428\31775.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240428</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240428\31776.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240428</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240428\31778.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240428</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240428\31780.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240428</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240428\31784.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240428</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240428\31785.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240428</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\10473.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\2026.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\1261.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\16639.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\16637.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\16638.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\11.Bellman-ford\2.Gold\1738.cpp">
+      <Filter>Baekjoon\11.Bellman-ford\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\17472.cpp">
+      <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240504\31789.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240504</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240504\31797.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240504</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240504\31796.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240504</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240504\31791.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240504</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1366.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1809.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1469.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\1241.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2714.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\1.Silver\10972.cpp">
+      <Filter>Baekjoon\16.Combinatorics\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2294.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\5024.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\27983.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31831.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31832.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31833.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31834.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31835.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31836.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240511\31837.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240511</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2520.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\3020.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\2.Gold\1599.cpp">
+      <Filter>Baekjoon\7.Sorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\1.Silver\5107.cpp">
+      <Filter>Baekjoon\8.DisjointSet\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9.TopologicalSorting\2.Gold\1899.cpp">
+      <Filter>Baekjoon\9.TopologicalSorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\5972.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\12.Floyd-warshall\2.Gold\11265.cpp">
+      <Filter>Baekjoon\12.Floyd-warshall\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\N개의 최소공배수.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\예상 대진표.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240518\31859.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240518</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240518\31860.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240518</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240518\31861.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240518</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240518\31863.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240518</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\3230.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240519\31844.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240519</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240519\31845.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240519</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240519\31846.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240519</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240519\31848.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240519</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240519\31851.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240519</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1297.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2704.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1351.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1354.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2225.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1577.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14581.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\31907.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\3622.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\4436.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\7511.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\11729.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240601\31945.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240601</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240601\31937.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240601</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\20492.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\2447.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class1\31403.cpp">
+      <Filter>Baekjoon\99.Class\Class1</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\30802.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class2\28702.cpp">
+      <Filter>Baekjoon\99.Class\Class2</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class3\30804.cpp">
+      <Filter>Baekjoon\99.Class\Class3</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class4\30805.cpp">
+      <Filter>Baekjoon\99.Class\Class4</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\15681.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\7453.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\99.Class\Class5\28707.cpp">
+      <Filter>Baekjoon\99.Class\Class5</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9070.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\17273.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\24775.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\20125.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\31910.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\15966.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\11423.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\1419.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\2036.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\14503.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\1011.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\2493.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\14891.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\2504.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\30266.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\5747.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\1.Silver\18422.cpp">
+      <Filter>Baekjoon\3.DFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\24523.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\12166.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\1.Silver\14244.cpp">
+      <Filter>Baekjoon\14.Tree\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\29702.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\2589.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\13023.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\11000.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\9205.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\14719.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\2023.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\11758.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2011.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\20055.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\27433.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1038.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\15486.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\5557.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\12904.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\21608.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9316.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\2212.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\2.Gold\2170.cpp">
+      <Filter>Baekjoon\7.Sorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\6593.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\2668.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\2251.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\17298.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1373.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1520.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\14499.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\1707.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2133.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\2573.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\1655.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9063.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14215.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\3055.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1339.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\2533.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\14725.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\2636.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\13334.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10987.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\2.Gold\15824.cpp">
+      <Filter>Baekjoon\16.Combinatorics\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\2.Gold\16565.cpp">
+      <Filter>Baekjoon\16.Combinatorics\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\14428.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\3273.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\14890.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\9184.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\1300.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\11478.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1744.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\11656.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\13913.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\10974.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\4485.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\10825.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\11066.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2167.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\15685.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\11728.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\2749.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\13241.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\4195.cpp">
+      <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1309.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\2437.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\0.Bronze\24416.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2740.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\3109.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\10867.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\17136.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\2161.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\19236.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1357.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\24723.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240817\A.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240817</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240817\B.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240817</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\98.Arena\0_Contest\240817\BTest.cpp">
+      <Filter>Baekjoon\98.Arena\0_Contest\240817</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\5014.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\1.Silver\1926.cpp">
+      <Filter>Baekjoon\4.BFS\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1251.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\2960.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\17822.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1007.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\6749.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\0.Bronze\4796.cpp">
+      <Filter>Baekjoon\2.Greedy\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2083.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\1145.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\1033.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\2.Gold\1016.cpp">
+      <Filter>Baekjoon\15.NumberTheory\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1543.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\10.Dijkstra\2.Gold\9370.cpp">
+      <Filter>Baekjoon\10.Dijkstra\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\1015.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1051.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\1039.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1268.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1029.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1049.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1035.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1063.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1036.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10768.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1236.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11943.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\0.Bronze\1296.cpp">
+      <Filter>Baekjoon\7.Sorting\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1080.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1105.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14652.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1333.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\4299.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\1356.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\4470.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\0.Bronze\1524.cpp">
+      <Filter>Baekjoon\7.Sorting\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11945.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\1526.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\17256.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1551.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\1124.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1079.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1308.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\1103.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1057.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\1525.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1141.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\1045.cpp">
+      <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1343.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1700.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\29731.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\1.Silver\1072.cpp">
+      <Filter>Baekjoon\5.BinarySearch\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\2.Gold\11401.cpp">
+      <Filter>Baekjoon\16.Combinatorics\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1059.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\2.Gold\1377.cpp">
+      <Filter>Baekjoon\7.Sorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\1.Silver\1166.cpp">
+      <Filter>Baekjoon\5.BinarySearch\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\1194.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\1275.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5524.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1672.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\11948.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1340.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\19238.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1120.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\9.TopologicalSorting\2.Gold\3665.cpp">
+      <Filter>Baekjoon\9.TopologicalSorting\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\1816.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\1213.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\2352.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\1189.cpp">
+      <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5575.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\0.Bronze\2693.cpp">
+      <Filter>Baekjoon\7.Sorting\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\9295.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\8980.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1855.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\13752.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\2851.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\17388.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\0.Bronze\11557.cpp">
+      <Filter>Baekjoon\7.Sorting\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\14916.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\10986.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\1244.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\17837.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\17413.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\19237.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\20499.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\10448.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\16486.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2846.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14489.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\0.Bronze\2810.cpp">
+      <Filter>Baekjoon\2.Greedy\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\13866.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\1890.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1834.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\17362.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2947.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\15873.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\25501.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\2146.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14696.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\24313.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\1781.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\19944.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\1302.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\2268.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\7567.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\11170.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\15726.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\1159.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14467.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\25238.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\24267.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\0.Bronze\14659.cpp">
+      <Filter>Baekjoon\2.Greedy\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14924.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10820.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2526.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14470.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\2346.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\3.DFS\2.Gold\1937.cpp">
+      <Filter>Baekjoon\3.DFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\12852.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\2250.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\2822.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\4179.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\28278.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\2169.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\6588.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\14.Tree\2.Gold\14438.cpp">
+      <Filter>Baekjoon\14.Tree\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\1.Silver\2407.cpp">
+      <Filter>Baekjoon\16.Combinatorics\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\4.BFS\2.Gold\1600.cpp">
+      <Filter>Baekjoon\4.BFS\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\1.Silver\2018.cpp">
+      <Filter>Baekjoon\97.Rank\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\3040.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\0.Bronze\6996.cpp">
+      <Filter>Baekjoon\7.Sorting\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\15700.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\24264.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
