@@ -2742,5 +2742,8 @@
     <ClCompile Include="Baekjoon\0.DataStructure\0.Bronze\17608.cpp">
       <Filter>Baekjoon\0.DataStructure\0.Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\0.Bronze\9933.cpp">
+      <Filter>Baekjoon\0.DataStructure\0.Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
