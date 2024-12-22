@@ -2760,5 +2760,8 @@
     <ClCompile Include="Baekjoon\6.Bruteforce\1.Silver\2529.cpp">
       <Filter>Baekjoon\6.Bruteforce\1.Silver</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\1450.cpp">
+      <Filter>Baekjoon\5.BinarySearch\2.Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
