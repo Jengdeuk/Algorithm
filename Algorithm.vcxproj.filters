@@ -2796,5 +2796,8 @@
     <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14935.cpp">
       <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10824.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
