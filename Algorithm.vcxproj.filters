@@ -2922,5 +2922,8 @@
     <ClCompile Include="Baekjoon\4.BFS\1.Silver\1743.cpp">
       <Filter>Baekjoon\4.BFS\1.Silver</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\0.Bronze\14582.cpp">
+      <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
