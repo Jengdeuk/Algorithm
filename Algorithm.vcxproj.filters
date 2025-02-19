@@ -2937,5 +2937,8 @@
     <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\1850.cpp">
       <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\1.Silver\9656.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\1.Silver</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
