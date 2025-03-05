@@ -2979,5 +2979,14 @@
     <ClCompile Include="Baekjoon\12.Floyd-warshall\2.Gold\11780.cpp">
       <Filter>Baekjoon\12.Floyd-warshall\2.Gold</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\5635.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\3036.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\2.Gold\17435.cpp">
+      <Filter>Baekjoon\0.DataStructure\2.Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
