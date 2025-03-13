@@ -3021,5 +3021,11 @@
     <ClCompile Include="Baekjoon\8.DisjointSet\2.Gold\1939.cpp">
       <Filter>Baekjoon\8.DisjointSet\2.Gold</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\7.Sorting\1.Silver\11652.cpp">
+      <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\2.Gold\1285.cpp">
+      <Filter>Baekjoon\6.Bruteforce\2.Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
