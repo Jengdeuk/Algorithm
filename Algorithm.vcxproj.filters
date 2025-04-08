@@ -3147,5 +3147,11 @@
     <ClCompile Include="Baekjoon\97.Rank\0.Bronze\5063.cpp">
       <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\1.Silver\2004.cpp">
+      <Filter>Baekjoon\15.NumberTheory\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\12.Floyd-warshall\2.Gold\1507.cpp">
+      <Filter>Baekjoon\12.Floyd-warshall\2.Gold</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
