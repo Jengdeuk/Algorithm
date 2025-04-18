@@ -1,6 +1,26 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
+
+vector<int> getP(string s)
+{
+	vector<int> p(s.size(), 0);
+
+	int j = 0;
+	for (int i = 1; i < s.size(); ++i)
+	{
+		while (j > 0 && s[i] != s[j])
+		{
+			j = p[j - 1];
+		}
+
+		if (s[i] == s[j])
+			p[i] = ++j;
+	}
+
+	return p;
+}
 
 int main()
 {
@@ -9,30 +29,16 @@ int main()
 
 	string s;
 	cin >> s;
-
-	int mn = 0;
-	for (int k = 0; k < s.size(); ++k)
+	
+	int m = 0;
+	for (int i = 0; i < s.size(); ++i)
 	{
-		int n = 0;
-		int i = k;
-		for (int j = k + 1; j < s.size(); ++j)
+		vector p(getP(s.substr(i, s.size() - i)));
+		for (int j = 0; j < s.size() - i; ++j)
 		{
-			if (s[i] == s[j])
-			{
-				mn = max(mn, ++n);
-				i++;
-				continue;
-			}
-
-			n = 0;
-			i = k;
-			if (s[i] == s[j])
-			{
-				mn = max(mn, ++n);
-				i++;
-			}
+			m = max(m, p[j]);
 		}
 	}
-	
-	cout << mn;
+
+	cout << m;
 }
