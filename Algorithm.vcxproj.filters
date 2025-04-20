@@ -295,6 +295,9 @@
     <Filter Include="Baekjoon\0.DataStructure\0.Bronze">
       <UniqueIdentifier>{2f9b8d9b-0262-40a1-a7a9-d83b90c8c741}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Baekjoon\16.Combinatorics\0.Bronze">
+      <UniqueIdentifier>{6d29842d-bcf2-4b47-9f23-8bb0af1c93d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon\99.Class\Class1\1000.cpp">
@@ -3203,6 +3206,9 @@
     </ClCompile>
     <ClCompile Include="Baekjoon\97.Rank\0.Bronze\2979.cpp">
       <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\16.Combinatorics\0.Bronze\16968.cpp">
+      <Filter>Baekjoon\16.Combinatorics\0.Bronze</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
