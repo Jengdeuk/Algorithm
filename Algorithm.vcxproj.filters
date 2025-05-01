@@ -298,6 +298,9 @@
     <Filter Include="Baekjoon\16.Combinatorics\0.Bronze">
       <UniqueIdentifier>{6d29842d-bcf2-4b47-9f23-8bb0af1c93d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Baekjoon\97.Rank\3.Platinum">
+      <UniqueIdentifier>{04f1dc5f-9de7-409c-886d-6d7c66323c0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon\99.Class\Class1\1000.cpp">
@@ -3254,6 +3257,15 @@
     </ClCompile>
     <ClCompile Include="Baekjoon\97.Rank\2.Gold\20061.cpp">
       <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\5.BinarySearch\1.Silver\7795.cpp">
+      <Filter>Baekjoon\5.BinarySearch\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\1081.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\3.Platinum\1019.cpp">
+      <Filter>Baekjoon\97.Rank\3.Platinum</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
