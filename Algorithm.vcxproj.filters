@@ -301,6 +301,27 @@
     <Filter Include="Baekjoon\97.Rank\3.Platinum">
       <UniqueIdentifier>{04f1dc5f-9de7-409c-886d-6d7c66323c0f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforce">
+      <UniqueIdentifier>{0c31a6dd-9bf9-41ef-83ad-46fdcfa64296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforce\A">
+      <UniqueIdentifier>{3a034e77-6108-4df6-b605-09cf25b4c8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforce\B">
+      <UniqueIdentifier>{5e16e621-5974-4f96-a200-679067306dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforce\C">
+      <UniqueIdentifier>{ec24d2a2-95aa-424b-afac-ddb7e28aae32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforce\D">
+      <UniqueIdentifier>{662f144a-5db2-4cc3-ba5a-7a36af7a887e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforce\E">
+      <UniqueIdentifier>{5aa4cac4-7b21-470c-9f8d-c4a73dfd96b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforce\F">
+      <UniqueIdentifier>{899c9c2c-af13-457f-81d9-ba07c0160fd5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon\99.Class\Class1\1000.cpp">
@@ -3293,6 +3314,12 @@
     </ClCompile>
     <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\1944.cpp">
       <Filter>Baekjoon\13.Kruskal\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\6.Bruteforce\0.Bronze\2435.cpp">
+      <Filter>Baekjoon\6.Bruteforce\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforce\A\4A.cpp">
+      <Filter>Codeforce\A</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
