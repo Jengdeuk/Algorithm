@@ -322,6 +322,9 @@
     <Filter Include="Codeforce\F">
       <UniqueIdentifier>{899c9c2c-af13-457f-81d9-ba07c0160fd5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Baekjoon\15.NumberTheory\0.Bronze">
+      <UniqueIdentifier>{4ca8f82b-b815-4418-b7f0-86232a5589c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Baekjoon\99.Class\Class1\1000.cpp">
@@ -3371,6 +3374,9 @@
     </ClCompile>
     <ClCompile Include="Baekjoon\97.Rank\0.Bronze\10103.cpp">
       <Filter>Baekjoon\97.Rank\0.Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\15.NumberTheory\0.Bronze\6359.cpp">
+      <Filter>Baekjoon\15.NumberTheory\0.Bronze</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
