@@ -3399,6 +3399,15 @@
     <ClCompile Include="Codeforce\A\50A.cpp">
       <Filter>Codeforce\A</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\1.Silver\19941.cpp">
+      <Filter>Baekjoon\2.Greedy\1.Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon\2.Greedy\2.Gold\3687.cpp">
+      <Filter>Baekjoon\2.Greedy\2.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforce\A\263A.cpp">
+      <Filter>Codeforce\A</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
