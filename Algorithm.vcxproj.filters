@@ -3420,6 +3420,9 @@
     <ClCompile Include="Codeforce\A\112A.cpp">
       <Filter>Codeforce\A</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\0.DataStructure\1.Silver\16139.cpp">
+      <Filter>Baekjoon\0.DataStructure\1.Silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
