@@ -3495,6 +3495,9 @@
     <ClCompile Include="Baekjoon\7.Sorting\1.Silver\2628.cpp">
       <Filter>Baekjoon\7.Sorting\1.Silver</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\1.DynamicProgramming\2.Gold\9084.cpp">
+      <Filter>Baekjoon\1.DynamicProgramming\2.Gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
