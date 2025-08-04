@@ -3639,6 +3639,9 @@
     <ClCompile Include="Baekjoon\3.DFS\1.Silver\24480.cpp">
       <Filter>Baekjoon\3.DFS\1.Silver</Filter>
     </ClCompile>
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\4574.cpp">
+      <Filter>Baekjoon\97.Rank\2.Gold</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
