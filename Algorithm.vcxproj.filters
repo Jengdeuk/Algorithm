@@ -3723,6 +3723,7 @@
     </ClCompile>
     <ClCompile Include="Baekjoon\97.Rank\3.Platinum\1786.cpp" />
     <ClCompile Include="Baekjoon\0.DataStructure\3.Platinum\3015.cpp" />
+    <ClCompile Include="Baekjoon\97.Rank\3.Platinum\2150.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
