@@ -9,7 +9,7 @@ const int dx[4] = { -1, 0, 1, 0 };
 const int dy[4] = { 0, -1, 0, 1 };
 
 int n, m, h, w;
-int map[1001][1001], sum[1001][1001];
+int sum[1001][1001];
 bool vst[1001][1001];
 
 const bool IsValid(int r, int c)
@@ -66,8 +66,8 @@ int main()
 	{
 		for (int j = 1; j <= m; ++j)
 		{
-			cin >> map[i][j];
-			sum[i][j] = map[i][j] + sum[i][j - 1] + sum[i - 1][j] - sum[i - 1][j - 1];
+			cin >> sum[i][j];
+			sum[i][j] = sum[i][j] + sum[i][j - 1] + sum[i - 1][j] - sum[i - 1][j - 1];
 		}
 	}
 
