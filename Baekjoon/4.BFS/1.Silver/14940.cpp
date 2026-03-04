@@ -2,59 +2,53 @@
 #include <queue>
 using namespace std;
 
-int N, M;
-int Map[1000][1000];
-int Distance[1000][1000];
-queue<pair<int, int>> SearchQueue;
+using p = pair<int, int>;
 
-void BFS(int StartRow, int StartCol)
+const int dx[4] = { -1, 0, 1, 0 };
+const int dy[4] = { 0, -1, 0, 1 };
+
+const int ms = 1000;
+
+int n, m;
+bool w[ms][ms];
+int d[ms][ms];
+
+bool IsValid(const int r, const int c)
 {
-	SearchQueue.emplace(StartRow, StartCol);
+	return r >= 0 && r < n && c >= 0 && c < m && d[r][c] == -1;
+}
 
-	while (!SearchQueue.empty())
+void BFS(const int sr, const int sc)
+{
+	for (int i = 0; i < n; ++i)
 	{
-		int CurRow = SearchQueue.front().first;
-		int CurCol = SearchQueue.front().second;
-		SearchQueue.pop();
-
-		if (Map[CurRow][CurCol] == 0)
+		for (int j = 0; j < m; ++j)
 		{
-			continue;
+			if (!w[i][j])
+			{
+				d[i][j] = -1;
+			}
 		}
+	}
 
-		int CurDistance = Distance[CurRow][CurCol];
-		Map[CurRow][CurCol] = 0;
+	queue<p> q;
+	q.emplace(sr, sc);
+	d[sr][sc] = 0;
+	while (!q.empty())
+	{
+		const int r = q.front().first;
+		const int c = q.front().second;
+		q.pop();
 
-		// Left
-		if (CurCol > 0
-			&& Map[CurRow][CurCol - 1] != 0)
+		for (int i = 0; i < 4; ++i)
 		{
-			Distance[CurRow][CurCol - 1] = CurDistance + 1;
-			SearchQueue.emplace(CurRow, CurCol - 1);
-		}
-
-		// Top
-		if (CurRow > 0
-			&& Map[CurRow - 1][CurCol] != 0)
-		{
-			Distance[CurRow - 1][CurCol] = CurDistance + 1;
-			SearchQueue.emplace(CurRow - 1, CurCol);
-		}
-
-		// Right
-		if (CurCol < M - 1
-			&& Map[CurRow][CurCol + 1] != 0)
-		{
-			Distance[CurRow][CurCol + 1] = CurDistance + 1;
-			SearchQueue.emplace(CurRow, CurCol + 1);
-		}
-
-		// Bottom
-		if (CurRow < N - 1
-			&& Map[CurRow + 1][CurCol] != 0)
-		{
-			Distance[CurRow + 1][CurCol] = CurDistance + 1;
-			SearchQueue.emplace(CurRow + 1, CurCol);
+			const int nr = r + dy[i];
+			const int nc = c + dx[i];
+			if (IsValid(nr, nc))
+			{
+				q.emplace(nr, nc);
+				d[nr][nc] = d[r][c] + 1;
+			}
 		}
 	}
 }
@@ -62,39 +56,39 @@ void BFS(int StartRow, int StartCol)
 int main()
 {
 	ios::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
+	cin.tie(nullptr); cout.tie(nullptr);
 
-	int StartRow = 0, StartCol = 0;
+	cin >> n >> m;
 
-	cin >> N >> M;
-	for (int i = 0; i < N; ++i)
+	int sr = 0, sc = 0;
+	for (int i = 0; i < n; ++i)
 	{
-		for (int j = 0; j < M; ++j)
+		for (int j = 0; j < m; ++j)
 		{
-			cin >> Map[i][j];
-
-			if (Map[i][j] == 2)
+			int num;
+			cin >> num;
+			switch (num)
 			{
-				StartRow = i;
-				StartCol = j;
+			case 2:
+				sr = i;
+				sc = j;
+				break;
+			case 0:
+				w[i][j] = true;
+				break;
+			default:
+				break;
 			}
 		}
 	}
 
-	BFS(StartRow, StartCol);
+	BFS(sr, sc);
 
-	for (int i = 0; i < N; ++i)
+	for (int i = 0; i < n; ++i)
 	{
-		for (int j = 0; j < M; ++j)
+		for (int j = 0; j < m; ++j)
 		{
-			if (Map[i][j] == 1)
-			{
-				cout << -1 << ' ';
-			}
-			else
-			{
-				cout << Distance[i][j] << ' ';
-			}
+			cout << d[i][j] << ' ';
 		}
 		cout << '\n';
 	}

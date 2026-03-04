@@ -1,31 +1,28 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
-
-int Weight[1001][3];
 
 int main()
 {
 	ios::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
+	cin.tie(nullptr); cout.tie(nullptr);
 
-	int N;
-	cin >> N;
+	int n;
+	cin >> n;
 
-	int R, G, B;
-	cin >> R >> G >> B;
-
-	Weight[1][0] = R;
-	Weight[1][1] = G;
-	Weight[1][2] = B;
-	
-	for (int i = 2; i <= N; ++i)
+	int prv[3] = {};
+	for (int i = 1; i <= n; ++i)
 	{
-		cin >> R >> G >> B;
+		int cur[3] = {};
+		for (int j = 0; j < 3; ++j)
+		{
+			int cst;
+			cin >> cst;
+			cur[j] = min(prv[(j + 1) % 3], prv[(j + 2) % 3]) + cst;
+		}
 
-		Weight[i][0] = min(Weight[i - 1][1], Weight[i - 1][2]) + R;
-		Weight[i][1] = min(Weight[i - 1][0], Weight[i - 1][2]) + G;
-		Weight[i][2] = min(Weight[i - 1][0], Weight[i - 1][1]) + B;
+		memcpy(prv, cur, sizeof(prv));
 	}
 
-	cout << min(min(Weight[N][0], Weight[N][1]), Weight[N][2]);
+	cout << min(prv[0], min(prv[1], prv[2]));
 }
