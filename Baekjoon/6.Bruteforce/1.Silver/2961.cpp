@@ -3,51 +3,41 @@ using namespace std;
 
 typedef pair<int, int> p;
 
-int N;
-p Ingredients[10];
-bool Put[10];
-int MinGap = 1234567890;
-
-void Bruteforce(int Idx)
-{
-	if (Idx == N)
-	{
-		int S = 1, B = 0, Cnt = 0;
-		for (int i = 0; i < N; ++i)
-		{
-			if (Put[i])
-			{
-				S *= Ingredients[i].first;
-				B += Ingredients[i].second;
-				Cnt++;
-			}
-		}
-
-		if (Cnt > 0)
-		{
-			MinGap = min(MinGap, abs(S - B));
-		}
-		return;
-	}
-
-	Put[Idx] = true;
-	Bruteforce(Idx + 1);
-	Put[Idx] = false;
-	Bruteforce(Idx + 1);
-}
-
 int main()
 {
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr); cout.tie(nullptr);
 
-	cin >> N;
-	for (int i = 0; i < N; ++i)
+	int n;
+	cin >> n;
+
+	p s[10];
+	for (int i = 0; i < n; ++i)
 	{
-		cin >> Ingredients[i].first >> Ingredients[i].second;
+		cin >> s[i].first >> s[i].second;
 	}
 
-	Bruteforce(0);
+	const int maxBit = (1 << n);
 
-	cout << MinGap;
+	int bit = 1;
+	int minGap = 1000000000;
+	while (bit < maxBit)
+	{
+		int a = 1;
+		int b = 0;
+		for (int i = 0; i < n; ++i)
+		{
+			if (bit & (1 << i))
+			{
+				a *= s[i].first;
+				b += s[i].second;
+			}
+		}
+
+		minGap = min(minGap, abs(a - b));
+
+		++bit;
+	}
+
+	cout << minGap;
 }
