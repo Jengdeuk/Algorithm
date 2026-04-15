@@ -3,23 +3,23 @@
 #include <cstring>
 using namespace std;
 
-const int MaxSize = 9;
+const int MaxNum = 9;
 
 bool bFound;
-int Solution[MaxSize][MaxSize];
+int Solution[MaxNum][MaxNum];
 
-int Board[MaxSize][MaxSize];
-bool CheckRow[MaxSize][MaxSize + 1];
-bool CheckCol[MaxSize][MaxSize + 1];
-bool CheckArea[MaxSize][MaxSize + 1];
+int Board[MaxNum][MaxNum];
+bool CheckRow[MaxNum][MaxNum + 1];
+bool CheckCol[MaxNum][MaxNum + 1];
+bool CheckArea[MaxNum][MaxNum + 1];
 
 void Init()
 {
-	for (int i = 0; i < MaxSize; ++i)
+	for (int i = 0; i < MaxNum; ++i)
 	{
 		string Line;
 		cin >> Line;
-		for (int j = 0; j < MaxSize; ++j)
+		for (int j = 0; j < MaxNum; ++j)
 		{
 			int Num = Line[j] - '0';
 			Board[i][j] = Num;
@@ -32,9 +32,9 @@ void Init()
 
 void Print()
 {
-	for (int i = 0; i < MaxSize; ++i)
+	for (int i = 0; i < MaxNum; ++i)
 	{
-		for (int j = 0; j < MaxSize; ++j)
+		for (int j = 0; j < MaxNum; ++j)
 		{
 			cout << Solution[i][j];
 		}
@@ -44,8 +44,8 @@ void Print()
 
 void DFS(int Count)
 {
-	int Row = Count / MaxSize;
-	int Col = Count % MaxSize;
+	int Row = Count / MaxNum;
+	int Col = Count % MaxNum;
 
 	if (bFound || Count == 81)
 	{
@@ -56,7 +56,7 @@ void DFS(int Count)
 
 	if (Board[Row][Col] == 0)
 	{
-		for (int Num = 1; Num <= MaxSize; ++Num)
+		for (int Num = 1; Num <= MaxNum; ++Num)
 		{
 			if (CheckRow[Row][Num] == false
 				&& CheckCol[Col][Num] == false

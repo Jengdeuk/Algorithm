@@ -4,16 +4,16 @@
 #include <queue>
 using namespace std;
 
-const int& MaxSize = 100001;
+const int& MaxNum = 100001;
 const int& MaxK = 20;
 int K;
 int MaxDepth;
 
-list<int> Neighbors[MaxSize];
-int Depth[MaxSize];
-int Parent[MaxK][MaxSize];
+list<int> Neighbors[MaxNum];
+int Depth[MaxNum];
+int Parent[MaxK][MaxNum];
 queue<int> SearchQueue;
-bool Visited[MaxSize];
+bool Visited[MaxNum];
 
 void SearchLCA(int NodeA, int NodeB)
 {

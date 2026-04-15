@@ -3,10 +3,10 @@ using namespace std;
 
 typedef long long ll;
 
-const int MaxSize = (1 << 17) * 2;
+const int MaxNum = (1 << 17) * 2;
 
 int N, K, S;
-ll Tree[MaxSize];
+ll Tree[MaxNum];
 
 ll Sum(int X, int Y)
 {

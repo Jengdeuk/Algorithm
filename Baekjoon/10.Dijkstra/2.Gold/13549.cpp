@@ -4,11 +4,11 @@
 #include <queue>
 using namespace std;
 
-const int& MaxSize = 100001;
+const int& MaxNum = 100001;
 const int& Infinite = INT_MAX;
 
 priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> SearchQueue;
-int Times[MaxSize];
+int Times[MaxNum];
 
 int main()
 {
@@ -19,7 +19,7 @@ int main()
 	int N, K;
 	cin >> N >> K;
 
-	for (int i = 0; i < MaxSize; ++i)
+	for (int i = 0; i < MaxNum; ++i)
 	{
 		Times[i] = Infinite;
 	}
@@ -50,7 +50,7 @@ int main()
 		for (int i = 0; i < 3; ++i)
 		{
 			int Neighbor = Neighbors[i].second;
-			if (Neighbor >= MaxSize
+			if (Neighbor >= MaxNum
 				|| Neighbor < 0)
 			{
 				continue;

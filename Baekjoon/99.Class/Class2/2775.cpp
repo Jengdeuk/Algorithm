@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-const int& MaxSize = 14;
+const int& MaxNum = 14;
 vector<vector<int>> Apartment;
 
 void TestCase()
@@ -40,10 +40,10 @@ int main()
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	Apartment.reserve(MaxSize + 1);
-	for (int i = 0; i < MaxSize + 1; ++i)
+	Apartment.reserve(MaxNum + 1);
+	for (int i = 0; i < MaxNum + 1; ++i)
 	{
-		Apartment.emplace_back(vector<int>(MaxSize, 0));
+		Apartment.emplace_back(vector<int>(MaxNum, 0));
 	}
 
 	int T;

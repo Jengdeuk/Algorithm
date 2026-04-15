@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-const int MaxSize = 2 << 17;
+const int MaxNum = 2 << 17;
 const int Infinite = 1000000001;
 
 int N, SI;
-int ST[MaxSize];
+int ST[MaxNum];
 
 void InitTree()
 {

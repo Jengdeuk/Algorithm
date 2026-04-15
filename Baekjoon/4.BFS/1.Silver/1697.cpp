@@ -2,14 +2,14 @@
 #include <queue>
 using namespace std;
 
-const int& MaxSize = 100000;
+const int& MaxNum = 100000;
 
-int Map[MaxSize + 1];
+int Map[MaxNum + 1];
 queue<int> SearchQueue;
 
 bool IsInSize(int Node)
 {
-	return (Node >= 0 && Node <= MaxSize);
+	return (Node >= 0 && Node <= MaxNum);
 }
 
 int main()

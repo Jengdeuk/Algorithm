@@ -3,12 +3,12 @@
 #include <queue>
 using namespace std;
 
-const int& MaxSize = 50001;
+const int& MaxNum = 50001;
 
-list<int> Neighbors[MaxSize];
-pair<int, int> Tree[MaxSize];
+list<int> Neighbors[MaxNum];
+pair<int, int> Tree[MaxNum];
 queue<int> SearchQueue;
-bool Visited[MaxSize];
+bool Visited[MaxNum];
 
 void SearchLCA(int NodeA, int NodeB)
 {

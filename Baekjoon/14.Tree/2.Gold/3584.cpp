@@ -3,10 +3,10 @@
 #include <queue>
 using namespace std;
 
-const int& MaxSize = 10001;
+const int& MaxNum = 10001;
 
-list<int> Children[MaxSize];
-pair<int, int> Tree[MaxSize];
+list<int> Children[MaxNum];
+pair<int, int> Tree[MaxNum];
 queue<int> SearchQueue;
 
 void SearchLCA(int NodeA, int NodeB)
@@ -61,7 +61,7 @@ void InitDepthInfo(int RootNode)
 
 void TestCase()
 {
-	for (int i = 0; i < MaxSize; ++i)
+	for (int i = 0; i < MaxNum; ++i)
 	{
 		Children[i].clear();
 		Tree[i] = pair<int, int>();

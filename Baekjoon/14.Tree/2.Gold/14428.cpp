@@ -4,11 +4,11 @@ using namespace std;
 
 typedef pair<int, int> p;
 
-const int MaxSize = 131072 * 2;
+const int MaxNum = 131072 * 2;
 const int MaxNum = 1000000000;
 
 int N, K, S;
-p T[MaxSize];
+p T[MaxNum];
 
 bool Compare(const int& L, const int& R)
 {
@@ -52,7 +52,7 @@ void UpdateData(int A, int B)
 int GetMinIndex(int A, int B)
 {
 	int Min = MaxNum;
-	int Mi = MaxSize - 1;
+	int Mi = MaxNum - 1;
 
 	while (A <= B)
 	{
@@ -80,7 +80,7 @@ int main()
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr); cout.tie(nullptr);
 
-	for (int i = 0; i < MaxSize; ++i)
+	for (int i = 0; i < MaxNum; ++i)
 	{
 		T[i].first = MaxNum;
 	}
