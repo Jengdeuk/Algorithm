@@ -1,36 +1,41 @@
 #include <iostream>
-#include <queue>
 #include <algorithm>
+#include <vector>
+#include <cmath>
 using namespace std;
 
-typedef pair<int, int> p;
-typedef pair<int, p> edge;
+using p = pair<int, int>;
 
-int N;
-p PX[100000];
-p PY[100000];
-p PZ[100000];
-priority_queue<edge, vector<edge>, greater<edge>> Edge;
-
-int Root[100000];
-
-int Find(int Node)
+struct Edge
 {
-	if (Node == Root[Node])
+	int D;
+	int A;
+	int B;
+
+	bool operator<(const Edge& Other) const
 	{
-		return Node;
+		return D < Other.D;
+	}
+};
+
+const int MaxN = 100000;
+
+int N, R[MaxN];
+p PX[MaxN], PY[MaxN], PZ[MaxN];
+
+int Find(int A)
+{
+	if (R[A] == A)
+	{
+		return A;
 	}
 
-	return Root[Node] = Find(Root[Node]);
+	return R[A] = Find(R[A]);
 }
 
-void Union(int NodeA, int NodeB)
+void Union(int A, int B)
 {
-	int A = Find(NodeA);
-	int B = Find(NodeB);
-	int Min = min(A, B);
-	Root[A] = Min;
-	Root[B] = Min;
+	R[Find(B)] = Find(A);
 }
 
 int main()
@@ -45,42 +50,39 @@ int main()
 		PX[i].second = i;
 		PY[i].second = i;
 		PZ[i].second = i;
+		R[i] = i;
 	}
 
 	sort(PX, PX + N);
 	sort(PY, PY + N);
 	sort(PZ, PZ + N);
 
-	for (int i = 0; i < N; ++i)
+	vector<Edge> E;
+	for (int i = 0; i < N - 1; ++i)
 	{
-		Root[i] = i;
-		if (i == N - 1)
-		{
-			break;
-		}
-
-		Edge.emplace(abs(PX[i].first - PX[i + 1].first), p(PX[i].second, PX[i + 1].second));
-		Edge.emplace(abs(PY[i].first - PY[i + 1].first), p(PY[i].second, PY[i + 1].second));
-		Edge.emplace(abs(PZ[i].first - PZ[i + 1].first), p(PZ[i].second, PZ[i + 1].second));
+		E.emplace_back(Edge{ abs(PX[i + 1].first - PX[i].first), PX[i].second, PX[i + 1].second });
+		E.emplace_back(Edge{ abs(PY[i + 1].first - PY[i].first), PY[i].second, PY[i + 1].second });
+		E.emplace_back(Edge{ abs(PZ[i + 1].first - PZ[i].first), PZ[i].second, PZ[i + 1].second });
 	}
 
-	int EdgeNum = 0;
-	long long Weight = 0;
-	while (!Edge.empty() && EdgeNum < N - 1)
+	sort(E.begin(), E.end());
+
+	int Count = 0;
+	long long Sum = 0;
+	for (const Edge& edge : E)
 	{
-		int W = Edge.top().first;
-		int A = Edge.top().second.first;
-		int B = Edge.top().second.second;
-		Edge.pop();
-		if (Find(A) == Find(B))
+		if (Find(edge.A) == Find(edge.B))
 		{
 			continue;
 		}
 
-		Union(A, B);
-		Weight += W;
-		++EdgeNum;
+		Sum += edge.D;
+		Union(edge.A, edge.B);
+		if (++Count == N - 1)
+		{
+			break;
+		}
 	}
 
-	cout << Weight;
+	cout << Sum;
 }
