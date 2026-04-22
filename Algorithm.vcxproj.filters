@@ -3732,6 +3732,7 @@
     <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\3079.cpp" />
     <ClCompile Include="Baekjoon\5.BinarySearch\2.Gold\32347.cpp" />
     <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\6497.cpp" />
+    <ClCompile Include="Baekjoon\97.Rank\2.Gold\2661.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
