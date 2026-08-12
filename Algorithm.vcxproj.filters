@@ -3734,6 +3734,7 @@
     <ClCompile Include="Baekjoon\13.Kruskal\2.Gold\6497.cpp" />
     <ClCompile Include="Baekjoon\97.Rank\2.Gold\2661.cpp" />
     <ClCompile Include="Programmers\Level3\경주로건설.cpp" />
+    <ClCompile Include="Programmers\Level2\힌트 스테이지.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Baekjoon\97.Rank\0.Bronze\13277.py">
